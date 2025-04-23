@@ -1,0 +1,42 @@
+💻 #EP003 - C Programming Week 1 Challenges
+🧠 Focus: Variables | Loops | Conditionals | Functions
+📅 Day 1–7 Exercises
+🔥 Let's master the basics before the 1337 Pool!
+
+---
+
+🔹 1. Input & Output Practice
+Write a program that asks for your name and age, then prints:
+Hello Yassin, you are 17 years old.
+
+🔹 2. Simple Calculator
+Take 2 integers as input and print their sum, difference, product, and quotient.
+
+🔹 3. Even or Odd
+Input a number and print whether it’s even or odd.
+
+🔹 4. Find the Maximum
+Input 3 numbers. Print the largest using if...else (no built-in functions).
+
+🔹 5. Multiplication Table
+Input a number. Print its multiplication table up to 10.
+
+🔹 6. Factorial with Loop
+Write a program to calculate the factorial of a number using a loop.
+
+🔹 7. Sum of Digits
+Input a number and print the sum of its digits.
+📌 Hint: use % and / to extract digits.
+
+🔹 8. Swap Two Numbers
+Use a function void swap(int *a, int *b) to swap two numbers using pointers.
+
+🔹 9. Prime Number Checker
+Input a number and check whether it’s a prime number.
+
+🔹 10. Basic Pattern Printer
+Input a number n, and print the following pattern:
+*
+* *
+* * *
+* * * *
