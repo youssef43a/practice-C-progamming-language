@@ -1,0 +1,11 @@
+1 asks the user for the number of students(max 100)
+
+2 Dynamically fills an array with each student's
+grade using a loop
+
+3 uses a function to calculate the average (passage by value).
+
+4 uses another function to find the highest grade and returns it
+using passage by address (via pointer)
+
+5 finally, display all grade using pointer arithmetic.
