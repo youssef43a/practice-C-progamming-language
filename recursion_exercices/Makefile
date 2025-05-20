@@ -1,7 +1,7 @@
 Name = ./a.out
 
-DIR = ex04
-src = $(DIR)/Count_Digits_Rec.c
+DIR = ex05
+src = $(DIR)/Sum_of_Digits_Rec.c
 sub = $(DIR)/subject.txt
 $(Name): $(DIR) $(src) compile
 	@./a.out
