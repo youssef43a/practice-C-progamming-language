@@ -1,7 +1,7 @@
 Name = ./a.out
 
-DIR = ex03
-src = $(DIR)/Array_Elements_Print_Rec.c
+DIR = ex04
+src = $(DIR)/Count_Digits_Rec.c
 sub = $(DIR)/subject.txt
 $(Name): $(DIR) $(src) compile
 	@./a.out
