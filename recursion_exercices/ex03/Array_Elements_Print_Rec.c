@@ -31,5 +31,5 @@ int main()
         ft_fill_array_of_int(arr, nb);
         printf("The elements in the array are : ");
         ft_print_array_elements_rec(arr, nb);
-
+        free(arr);
 }

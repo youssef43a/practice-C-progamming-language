@@ -1,0 +1,14 @@
+2. ft_generate_strings_of_3_chars.
+
+void ft_generate_strings_of_3_chars()
+Description: generate strings that print all possibel value of 3 chars 'a' 'b' 'c'
+
+Output:
+
+aaa
+aab
+aac
+aba
+abb
+...
+ccc

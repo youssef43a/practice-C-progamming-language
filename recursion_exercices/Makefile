@@ -1,7 +1,8 @@
 Name = ./a.out
 
-DIR = ex06
-src = $(DIR)/GCD_Rec.c
+DIR_ = backtaraging
+DIR = $(DIR_)/ex01
+src = $(DIR)/ft_generate_strings_of_3_chars.c
 sub = $(DIR)/subject.txt
 $(Name): $(DIR) $(src) compile
 	@./a.out

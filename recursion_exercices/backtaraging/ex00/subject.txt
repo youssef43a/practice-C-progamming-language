@@ -1,0 +1,13 @@
+1. ft_generate_binary_strings
+
+void ft_generate_binary_strings(int n);
+Description: Generate and print all binary strings of length n.
+
+Example:
+
+Input: 2
+Output:
+00
+01
+10
+11
