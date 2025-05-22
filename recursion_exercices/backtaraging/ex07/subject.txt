@@ -1,0 +1,13 @@
+🧩 Exercise 8: ft_generate_parentheses
+
+Prototype:
+void ft_generate_parentheses(int n);
+
+Description:
+Generate all valid parentheses combinations of n pairs.
+
+Example:
+
+ft_generate_parentheses(2);
+// Output:
+// ()(), (())

@@ -1,0 +1,13 @@
+🧩 Exercise 10: ft_generate_without_repeat
+
+Prototype:
+void ft_generate_number_without_repeat(int n);
+
+Description:
+Generate all sequences of length n using digits 0 to 9, with no repeated digit.
+
+Example:
+
+ft_generate_number_without_repeat(2);
+// Output:
+// 01, 02, .... 20, 21, 23, .., 89, 98

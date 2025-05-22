@@ -1,0 +1,13 @@
+🧩 Exercise 9: ft_generate_ternary_strings
+
+Prototype:
+void ft_generate_ternary_strings(int n);
+
+Description:
+Generate all strings of length n made up of the characters '0', '1', '2'.
+
+Example:
+
+ft_generate_ternary_strings(2);
+// Output:
+// 00, 01, 02, ..., 22
