@@ -1,0 +1,13 @@
+🧩 Exercise 7: ft_generate_no_consecutive_ones
+
+Prototype:
+void ft_generate_no_consecutive_ones(int n);
+
+Description:
+Generate all binary strings of length n that do not contain consecutive 1s.
+
+Example:
+
+ft_generate_no_consecutive_ones(3);
+// Output:
+// 000, 001, 010, 100, 101
