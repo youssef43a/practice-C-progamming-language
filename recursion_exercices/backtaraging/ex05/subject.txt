@@ -1,0 +1,14 @@
+🧩 Exercise 6: ft_generate_binary_with_k_ones
+
+Prototype:
+void ft_generate_binary_with_k_ones(int n, int k);
+
+Description:
+Generate all binary strings of length n that contain
+exactly k ones.
+
+Example:
+
+ft_generate_binary_with_k_ones(3, 2);
+Output:
+ 011, 101, 110

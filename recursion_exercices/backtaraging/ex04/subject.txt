@@ -1,0 +1,13 @@
+🧩 Exercise 5: ft_print_combn_sum
+
+--> Prototype:
+void ft_print_combn_sum(int n, int target);
+
+--> Description:
+Print all combinations of n distinct digits (from 0 to 9) in
+increasing order where the sum equals target.
+
+--> Example:
+ft_print_combn_sum(2, 5);
+// Output:
+// 05, 14, 23

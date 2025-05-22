@@ -1,0 +1,17 @@
+4. ft_generate_no_repeat
+
+prototype:
+void ft_generate_no_repeat(int size);
+⟶ Description:
+Generate all strings of size size using lowercase letters (a-z) without repeating any letter.
+
+⟶ Example:
+bash
+Copy
+Edit
+Input: size = 2
+Output:
+ab
+ac
+...
+zy
