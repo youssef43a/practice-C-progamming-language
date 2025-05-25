@@ -1,0 +1,17 @@
+ Exercise 1.1: Calculate Factorial
+ Turn-in directory: ex01/
+ Files to turn in: factorial.c
+ Allowed functions: printf (for testing only)
+ c
+ Create a function that calculates the factorial of a given number using recursion.
+ The factorial of n (written as n!) is the product of all positive integers less than or equal to n.
+ For example: 5! = 5 × 4 × 3 × 2 × 1 = 120
+ Handle the base case: 0! = 1 and 1! = 1
+ Your function should handle negative numbers by returning 0.
+ Here's how it should be prototyped:
+
+int factorial(int n);
+ Test cases:
+ factorial(0) should return 1
+ factorial(5) should return 120
+ factorial(-3) should return 0

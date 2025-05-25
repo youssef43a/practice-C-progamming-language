@@ -1,0 +1,20 @@
+Exercise 1.2: Fibonacci Sequence
+ Turn-in directory: ex02/
+ Files to turn in: fibonacci.c
+ Allowed functions: printf (for testing only)
+ Create a function that returns the nth number in the Fibonacci sequence using recursion.
+ The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two
+ preceding ones.
+ Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 .
+ For example: fibonacci(6) should return 8
+Handle edge cases: fibonacci(0) = 0, fibonacci(1) = 1
+ 
+ For negative inputs, return -1
+
+ Here's how it should be prototyped:
+ int  fibonacci(int n);
+
+ Test cases:
+ fibonacci(0) should return 0
+ fibonacci(1) should return 1
+ fibonacci(7) should return 13
