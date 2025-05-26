@@ -1,0 +1,18 @@
+Exercise 1.7: Check Sorted Array
+ Turn-in directory: ex07/
+ Files to turn in: is_sorted.c
+ Allowed functions: printf (for testing only)
+ Create a function that checks if an array is sorted in ascending order using recursion.
+ Return 1 if the array is sorted, 0 otherwise.
+ An array with 0 or 1 element is considered sorted.
+ The function should check if each element is less than or equal to the next element.
+ Do not use any loops - only recursion.
+For example: is_sorted([1,2,3,4,5], 5) should return 1
+
+ Here's how it should be prototyped:
+ int is_sorted(int arr[], int size);
+
+  Test cases:
+ is_sorted([1,2,3], 3) should return 1
+ is_sorted([3,1,2], 3) should return 0
+ is_sorted([5], 1) should return 1
