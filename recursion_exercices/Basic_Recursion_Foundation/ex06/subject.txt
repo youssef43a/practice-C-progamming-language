@@ -1,0 +1,19 @@
+Exercise 1.6: Find Maximum in Array
+ Turn-in directory: ex06/
+ Files to turn in: find_max.c
+ Allowed functions: printf (for testing only)
+ c
+ Create a function that finds the maximum element in an array using recursion.
+ The function should take an array and its size as parameters.
+ For an array with one element, return that element.
+ Assume the array is not empty (size >= 1).
+ Do not use any loops - only recursion.
+ For example: find_max([3,7,2,9,1], 5) should return 9
+
+ Here's how it should be prototyped
+ int find_max(int array[], int size);
+
+ Test cases:
+ find_max([5], 1) should return 5
+ find_max([1,9,3], 3) should return 9
+ find_max([-1,-5,-2], 3) should return -1
