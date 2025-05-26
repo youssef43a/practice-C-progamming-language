@@ -1,0 +1,17 @@
+ Exercise 1.9: Palindrome Check
+ Turn-in directory: ex09/
+ Files to turn in: is_palindrome.c
+ Allowed functions: printf (for testing only)
+Create a function that checks if a string is a palindrome using recursion.
+ A palindrome reads the same forwards and backwards (e.g., "racecar").
+ Return 1 if it's a palindrome, 0 otherwise.
+ The comparison should be case-sensitive.
+ Consider only alphabetic characters (ignore spaces and punctuation for this exercise).
+
+ Here's how it should be prototyped:
+ int is_palindrome(char *str, int start, int end);
+
+  Test cases:
+ is_palindrome("racecar", 0, 6) should return 1
+ is_palindrome("hello", 0, 4) should return 0
+ is_palindrome("a", 0, 0) should return 1
