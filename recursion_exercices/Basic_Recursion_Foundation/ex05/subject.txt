@@ -1,0 +1,17 @@
+Turn-in directory: ex05/
+ Files to turn in: array_sum.c
+ Allowed functions: printf (for testing only)
+ 
+ Create a function that calculates the sum of all elements in an array using recursion.
+ The function should take an array and its size as parameters.
+ For an empty array (size 0), return 0.
+ Do not use any loops - only recursion.
+ For example: array_sum([1,2,3,4,5], 5) should return 15
+
+ Here's how it should be prototyped:
+ int array_sum(int array[], int size);
+
+ Test cases:
+ array_sum([1,2,3], 3) should return 6
+array_sum([], 0) should return 0
+ array_sum([10], 1) should return 10

@@ -1,0 +1,17 @@
+Exercise 1.4: Sum of Digits
+Turn-in directory: ex04/
+ Files to turn in: sum_digits.c
+ Allowed functions: printf (for testing only)
+
+ Create a function that calculates the sum of all digits in a given number using recursion.
+ For example: sum_digits(1234) should return 10 (1+2+3+4)
+ Handle negative numbers by treating them as positive.
+ For single digit numbers, return the number itself.
+
+ Here's how it should be prototyped:
+ int sum_digits(int n);
+
+ Test cases:
+ sum_digits(123) should return 6
+ sum_digits(0) should return 0
+ sum_digits(-456) should return 15

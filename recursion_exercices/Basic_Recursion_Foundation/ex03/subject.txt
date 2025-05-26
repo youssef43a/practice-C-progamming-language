@@ -1,0 +1,17 @@
+ Turn-in directory: ex03/
+ Files to turn in: power.c
+ Allowed functions: printf (for testing only)
+ c
+ Create a function that calculates base raised to the power of exponent using recursion.
+ Do not use any math library functions.
+ Handle the base case: any number to the power of 0 equals 1.
+ For negative exponents, return 0 (integer division).
+ For example: power(2, 3) should return 8
+
+ Here's how it should be prototyped:
+ int  power(int base, int exp);
+
+ Test cases:
+ power(2, 0) should return 1
+ power(3, 4) should return 81
+ power(5, 1) should return 5
