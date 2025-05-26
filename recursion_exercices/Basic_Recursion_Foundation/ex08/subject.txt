@@ -1,0 +1,17 @@
+ Exercise 1.8: String Length
+ Turn-in directory: ex08/
+ Files to turn in: string_length.c
+ Allowed functions: printf (for testing only)
+ 
+ Create a function that calculates the length of a string using recursion.
+ Do not use the strlen() function or any string library functions.
+ Count characters until you reach the null terminator '\0'.
+ For an empty string, return 0.
+
+ Here's how it should be prototyped:
+ int string_length(char *str);
+
+  Test cases:
+ string_length("Hello") should return 5
+ string_length("") should return 0
+ string_length("A") should return 1
